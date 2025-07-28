@@ -3,4 +3,4 @@ Hi everyone! I'm starting out with learning System Verilog Basics. This reposito
 Do share this repo or ⭐ it and learn we me or revise your basics.
 
 ## CONTENTS
--[DAY 01]() [Data types]
+- [DAY 01]() [Data types]
