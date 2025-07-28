@@ -1,4 +1,5 @@
 ## EDA Playground Links
 
-- [data_types.sv](https://edaplayground.com/x/BDEd)
-- [enum_datatype.sv](https://edaplayground.com/x/ZC6X)
+- [data_types](https://edaplayground.com/x/BDEd)
+- [enum_datatype](https://edaplayground.com/x/ZC6X)
+- [typedef_enum](https://edaplayground.com/x/8iy_)
