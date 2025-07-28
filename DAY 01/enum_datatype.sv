@@ -10,7 +10,21 @@
 */
 
 module tb;
+//-------------------------------------------------------------------------------------------------
+/*
+  enum {RED=3, YELLOW, GREEN=6} light_1; // RED = 3, YELOW = 4, GREEN = 6
   
+  enum {RED=3, YELLOW, GREEN=4} light_1; // RED = 3, YELOW = 4, GREEN = 4  // ERROR, 2 names have same value assigned
+  
+  enum bit[1:0] {RED, YELLOW, GREEN} light_1; // RED = 00, YELOW = 01, GREEN = 10 // bit type
+  
+  enum {1WAY, 2TIMES, SIXPACK=6} e_formula; 		// Compilation error on 1WAY, 2TIMES // cannot start name with number
+*/ 
+  
+//---------------------------------------------------------------------------------------------------
+// Enumeration methods
+//---------------------------------------------------------------------------------------------------
+/*
   enum {
   	MONDAY,
   	TUESDAY,
@@ -31,4 +45,27 @@ module tb;
       days = days.next; //returns the value of next member of the enumeration
     end
   end
+*/
+//-------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------
+  
+  enum {GREEN, YELLOW, RED, BLUE} colors;
+
+	initial begin
+      colors color;
+
+      // Assign current value of color to YELLOW
+      color = YELLOW;
+
+      $display ("color.first() = %0d", color.first());  // First value is GREEN = 0
+      $display ("color.last()  = %0d", color.last());	// Last value is BLUE = 3
+      $display ("color.next()  = %0d", color.next()); 	// Next value is RED = 2
+      $display ("color.prev()  = %0d", color.prev()); 	// Previous value is GREEN = 0
+      $display ("color.num()   = %0d", color.num()); 	// Total number of enum = 4
+      $display ("color.name()  = %s" , color.name()); 	// Name of the current enum
+    end
+ 
+  
+  
+  
 endmodule
