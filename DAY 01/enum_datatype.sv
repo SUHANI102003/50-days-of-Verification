@@ -12,11 +12,17 @@
 module tb;
 //-------------------------------------------------------------------------------------------------
 /*
-  enum {RED=3, YELLOW, GREEN=6} light_1; // RED = 3, YELOW = 4, GREEN = 6
+   enum {RED=3, YELLOW, GREEN=6} light_1; // RED = 3, YELOW = 4, GREEN = 6
   
-  enum {RED=3, YELLOW, GREEN=4} light_1; // RED = 3, YELOW = 4, GREEN = 4  // ERROR, 2 names have same value assigned
+  enum {RED=3, YELLOW, GREEN=4} light_2; // RED = 3, YELOW = 4, GREEN = 4  // ERROR, 2 names have same value assigned
   
-  enum bit[1:0] {RED, YELLOW, GREEN} light_1; // RED = 00, YELOW = 01, GREEN = 10 // bit type
+  enum bit[1:0] {RED, YELLOW, GREEN} light_3; // RED = 00, YELOW = 01, GREEN = 10 // bit type
+  
+  enum {RED[4]} light_4;                     // RED[0] = 0, RED[1] = 1, RED[2] = 2, RED[3] = 3
+  
+  enum {RED[3] = 5} light_5;                  // RED0 = 5, RED1 = 6, RED2 = 7
+  
+  enum {WHITE[3:5] = 4} light_6;                // WHITE3 = 4, WHITE4 = 5, WHITE5 = 6
   
   enum {1WAY, 2TIMES, SIXPACK=6} e_formula; 		// Compilation error on 1WAY, 2TIMES // cannot start name with number
 */ 
