@@ -21,3 +21,7 @@ This repo will mainly focus on SV testbench concepts i.e, OOPS, constraints, ran
 - [DAY 10](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2010) [local keyword]
 - [DAY 11](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2011) [Copying Objects]
 - [DAY 12](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2012) [Shallow and Deep copy]
+- [DAY 13](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2013) [Inheritance]
+- [DAY 14](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2014) [Polymorphism]
+- [DAY 15](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2015) [Virtual methods]
+- [DAY 16](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2016) [Super keyword]
