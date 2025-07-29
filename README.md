@@ -9,3 +9,4 @@ Link to the EDA Playground is given in the Readme file of each folder. You can g
 - [DAY 02](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2002) [Fixed arrays]
 - [DAY 03](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2003) [Dynamic and Associative arrays]
 - [DAY 04](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2004) [Queues]
+- [DAY 05](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2005) []
