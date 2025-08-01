@@ -11,11 +11,3 @@ always@(posedge clk) begin
 end
 endmodule
 
-interface add1_if;
-    logic clk;
-    logic [3:0] a,b;  
-    logic [4:0] sum;
-    modport DRV (output a,b, input clk, sum);
-
-endinterface
-   
