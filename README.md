@@ -30,4 +30,5 @@ This repo will mainly focus on SV testbench concepts i.e, OOPS, constraints, ran
 - [DAY 19](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2019) [Multiple thread processes]
 - [DAY 20](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2020) [Semaphore]
 - [DAY 21](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2021) [Mailbox]
+- [DAY 22](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2022) [Interface]
   
