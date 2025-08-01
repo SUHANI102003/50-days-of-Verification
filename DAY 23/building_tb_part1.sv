@@ -161,7 +161,7 @@ initial begin
     gen = new(mbx);
     drv = new(mbx);
     drv.aif = aif;
-    gen.done = done;
+    done = gen.done;
 end
 
 initial begin
