@@ -24,3 +24,10 @@ This repo will mainly focus on SV testbench concepts i.e, OOPS, constraints, ran
 - [DAY 13](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2013) [Inheritance]
 - [DAY 14](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2014) [Polymorphism]
 - [DAY 15](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2015) [Super keyword, Overriding methods]
+- [DAY 16](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2016) [Randomization]
+- [DAY 17](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2017) [Constraints]
+- [DAY 18](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2018) [Events]
+- [DAY 19](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2019) [Multiple thread processes]
+- [DAY 20](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2020) [Semaphore]
+- [DAY 21](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2021) [Mailbox]
+  
