@@ -1,0 +1,122 @@
+/*
+-------------------------------------------------------------
+            OVERRIDING METHODS IN SYSTEM VERILOG 
+-------------------------------------------------------------
+A derived class can override a method from its base class. To override a method, the derived class defines a method with the same name
+as the method in base class.
+
+*/
+/*
+class first;                                // parent/base class
+  int data = 12;
+  
+  function void display();
+    $display("FIRST: Value of data : %0d", data);
+  endfunction
+endclass
+
+class second extends first;                  // child/derived class == contains the properties and methods of parent class
+  int temp = 34;
+  
+  function void display();
+    $display("SECOND: Value after processing : %0d", temp + 4);
+  endfunction
+endclass
+
+// we see that both the parent and child class have a method called display(). 
+
+module tb;
+  second s;
+  
+  initial begin
+    s = new();
+    s.display();   // SECOND: Value after processing : 38
+    
+    
+//    here we see that even though we have extended the parent class in child class, when calling display() method , instead of parent 
+//      class method , the child class method is excecuted.
+//    THIS IS CALLED OVERRIDING OF METHOD IN BASE CLASS BY DERIVED CLASS
+    
+  end
+endmodule
+*/
+
+/*
+HOW TO SOLVE IT??
+
+----------------------------------------------------
+               super KEYWORD
+----------------------------------------------------
+To access the base class version of overridden method, SV provides a super keyword.
+This allows calling the base class method from within derived class.
+
+super keyword is used to distinguish between the methods of parent and child class
+
+*/
+/*
+class first;                                // parent/base class
+  int data = 12;
+  
+  function void display();
+    $display("FIRST: Value of data : %0d", data);
+  endfunction
+endclass
+
+class second extends first;                  // child/derived class == contains the properties and methods of parent class
+  int temp = 34;
+  
+  function void display();
+    super.display();      // calls the base class display()
+    $display("SECOND: Value after processing : %0d", temp + 4);
+  endfunction
+endclass
+
+// we see that both the parent and child class have a method called display(). 
+
+module tb;
+  second s;
+  
+  initial begin
+    s = new();
+    s.display();   
+ //   # KERNEL: FIRST: Value of data : 12
+//    # KERNEL: SECOND: Value after processing : 38
+   
+  end
+endmodule
+
+// NOW WE SEE THE BASE CLASS METHOD BEING CALLED
+
+
+//WHY DO WE NEED IT??
+/*
+Very useful in inheritance.
+
+SUPPOSE WE WANT TO EXTEND THE PROPERTIES OF PARENT CLASS.
+AND WE HAVE CUSTOM CONSTRUCTOR IN BOTH CLASSES, i.e, function new()
+now the constructor you are referring to needs to be distinguished as to know which is parent and which is class
+// DONE USING SUPER KEYWORD
+*/
+
+class first;
+  int data = 12;
+  function new(input int data);
+    this.data = data;
+  endfunction
+endclass
+
+class second extends first;
+  int temp = 12;
+  function new(input int data, input int temp);
+    super.new(data);
+    this.temp = temp;
+  endfunction
+endclass
+
+module tb;
+  second s;
+  initial begin
+    s = new(67,45);
+    $display("value of data : %0d, temp : %0d",s.data,s.temp);
+  end
+endmodule
