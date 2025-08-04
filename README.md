@@ -35,3 +35,5 @@ This repo will mainly focus on SV testbench concepts i.e, OOPS, constraints, ran
 - [DAY 24](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2024) [D-FF]
 - [DAY 25](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2025) [Synchronous FIFO]
   
+## Referances
+I followed the Github Repository [SystemVerilogCourse](https://github.com/SUHANI102003/SystemVerilogCourse) and the website [Chip Verify](https://www.chipverify.com/tutorials/systemverilog) for learning System Verilog
