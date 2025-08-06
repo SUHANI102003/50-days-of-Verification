@@ -1,4 +1,4 @@
-# 50 DAYS OF SYSTEM VERILOG
+# 50 DAYS OF Verification
 Hi everyone! I'm starting out with learning System Verilog Testbnch Basics. This repository will document all my SV codes as I learn. 
 Do share this repo or ⭐ it and learn we me or revise your basics.
 
@@ -9,6 +9,7 @@ Note: Pre-requisite - Verilog (functions, tasks, modelling styles, procedural bl
 This repo will mainly focus on SV testbench concepts i.e, OOPS, constraints, randomization, IPC, etc.
 
 ## CONTENTS
+### System Verilog
 - [DAY 01](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2001) [Data types]
 - [DAY 02](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2002) [Fixed arrays]
 - [DAY 03](https://github.com/SUHANI102003/50daysOfSystemVerilog/tree/main/DAY%2003) [Dynamic and Associative arrays]
