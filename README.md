@@ -1,12 +1,10 @@
-# 50 DAYS OF Verification
-Hi everyone! I'm starting out with learning System Verilog Testbnch Basics. This repository will document all my SV codes as I learn. 
+# 50 Days of Verification
+Hi everyone! I'm starting out with learning Design Verification Basics that will include System Verilog and UVM (Universal Verification Methodology). This repository will document all my codes as I learn. 
 Do share this repo or ⭐ it and learn we me or revise your basics.
 
 Link to the EDA Playground is given in the Readme file of each folder. You can go and try to run the codes yourself and verify the results.
 
 Note: Pre-requisite - Verilog (functions, tasks, modelling styles, procedural blocks, continous assignments, loops)
-
-This repo will mainly focus on SV testbench concepts i.e, OOPS, constraints, randomization, IPC, etc.
 
 ## CONTENTS
 ### System Verilog
