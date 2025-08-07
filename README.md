@@ -44,6 +44,7 @@ Note: Pre-requisite - Verilog (functions, tasks, modelling styles, procedural bl
 - [UVM_DAY 05](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%2005) [Compare and Create Method]
 - [UVM_DAY 06](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%2006) [Factory Overriding (create vs new method)]
 - [UVM_DAY 07](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%2007) [do methods]
+- [UVM_DAY 08](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%2008) [UVM Component Class]
 
   
 ## Referances
