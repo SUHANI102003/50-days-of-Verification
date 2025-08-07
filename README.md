@@ -40,5 +40,11 @@ Note: Pre-requisite - Verilog (functions, tasks, modelling styles, procedural bl
 - [UVM_DAY 01](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%2001) [Reporting Mechanisms]
 - [UVM_DAY 02](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%2002) [UVM Object class]
 - [UVM_DAY 03](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%2003) [Field Macros]
+- [UVM_DAY 04](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%2004) [Copy and Clone Method]
+- [UVM_DAY 05](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%2005) [Compare and Create Method]
+- [UVM_DAY 06](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%2006) [Factory Overriding (create vs new method)]
+- [UVM_DAY 07](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%2007) [do methods]
+
+  
 ## Referances
 I followed the Github Repository [SystemVerilogCourse](https://github.com/SUHANI102003/SystemVerilogCourse) and the website [Chip Verify](https://www.chipverify.com/tutorials/systemverilog) for learning System Verilog
