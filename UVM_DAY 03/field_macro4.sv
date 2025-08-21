@@ -19,14 +19,14 @@ import uvm_pkg::*;
 3. `uvm_field_array_string
 4. `uvm_field_array_enum
 
-/////// DYNAMIC ARRAY
+/////// QUEUES
 
 1. `uvm_field_queue_int
 2. `uvm_field_queue_object
 3. `uvm_field_queue_string
 4. `uvm_field_queue_enum
 
-/////// DYNAMIC ARRAY
+/////// ASSOCIATIVE ARRAY
 (string key)
 1. `uvm_field_aa_int_string
 2. `uvm_field_aa_object_string
