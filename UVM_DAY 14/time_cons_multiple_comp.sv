@@ -120,3 +120,19 @@ module tb;
 endmodule
 
 // OBSERVE THE TIMINGS AT WHICH THE TASKS GET COMPLETED TO UNDERSTAND
+
+//--------------------------------------------------------------
+// OUTPUT
+//--------------------------------------------------------------
+/*
+# KERNEL: UVM_INFO @ 0: reporter [RNTST] Running test test...
+# KERNEL: UVM_INFO /home/runner/testbench.sv(50) @ 0: uvm_test_top.e.mon [mon] Monitor Reset Started
+# KERNEL: UVM_INFO /home/runner/testbench.sv(19) @ 0: uvm_test_top.e.drv [drv] Driver Reset Started
+# KERNEL: UVM_INFO /home/runner/testbench.sv(21) @ 100: uvm_test_top.e.drv [drv] Driver Reset Completed
+# KERNEL: UVM_INFO /home/runner/testbench.sv(52) @ 300: uvm_test_top.e.mon [mon] Monitor Reset Completed
+# KERNEL: UVM_INFO /home/runner/testbench.sv(59) @ 300: uvm_test_top.e.mon [mon] Monitor Main Phase Started
+# KERNEL: UVM_INFO /home/runner/testbench.sv(28) @ 300: uvm_test_top.e.drv [drv] Driver Main Phase Started
+# KERNEL: UVM_INFO /home/runner/testbench.sv(30) @ 400: uvm_test_top.e.drv [drv] Driver Main Phase Ended
+# KERNEL: UVM_INFO /home/runner/testbench.sv(61) @ 700: uvm_test_top.e.mon [mon] Monitor Main Phase Ended
+# KERNEL: UVM_INFO /home/build/vlib1/vlib/uvm-1.2/src/base/uvm_report_server.svh(869) @ 700: reporter [UVM/REPORT/SERVER] 
+*/
