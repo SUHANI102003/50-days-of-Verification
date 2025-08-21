@@ -166,7 +166,7 @@ class comp extends uvm_component;
   
   function new(string path = "second", uvm_component parent = null);
     super.new(path,parent);
-    f = new("f");  // chage this
+    f = new("f");  // change this
     f.randomize();
     f.print();
   endfunction
