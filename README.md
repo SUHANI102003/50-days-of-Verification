@@ -56,6 +56,9 @@ Note: Pre-requisite - Verilog (functions, tasks, modelling styles, procedural bl
 - [UVM_DAY 17](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%2017) [Phase & Objection debug]
 - [UVM_DAY 18](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%2018) [TLM put port]
 - [UVM_DAY 19](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%20119) [TLM get port]
+- [UVM_DAY 20](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%20120) [TLM Transport port]
+- [UVM_DAY 21](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%20121) [TLM Analysis port]
+
 
   
 ## Referances
