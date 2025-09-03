@@ -60,6 +60,7 @@ Note: Pre-requisite - Verilog (functions, tasks, modelling styles, procedural bl
 - [UVM_DAY 21](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%20121) [TLM Analysis port]
 - [UVM_DAY 22](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%20122) [Sequence]
 - [UVM_DAY 23](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%20123) [Sendinf data to Driver]
+- [UVM_DAY 24](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%20124) [Multiple sequences]
 
 
   
