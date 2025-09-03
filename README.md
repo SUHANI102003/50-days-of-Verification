@@ -1,13 +1,28 @@
-# 50 Days of Verification
-Hi everyone! I'm starting out with learning Design Verification Basics that will include System Verilog and UVM (Universal Verification Methodology). This repository will document all my codes as I learn. 
-Do share this repo or ⭐ it and learn we me or revise your basics.
+<div align="center">
 
-Link to the EDA Playground is given in the Readme file of each folder. You can go and try to run the codes yourself and verify the results.
+# 🚀 50 Days of Verification  
 
-Note: Pre-requisite - Verilog (functions, tasks, modelling styles, procedural blocks, continous assignments, loops)
+![Language](https://img.shields.io/badge/Language-SystemVerilog-blue?style=for-the-badge)  
+![Methodology](https://img.shields.io/badge/Methodology-UVM-green?style=for-the-badge)  
+![EDA](https://img.shields.io/badge/Tool-EDA%20Playground-orange?style=for-the-badge)  
 
-## CONTENTS
-### System Verilog
+</div>
+
+Hi everyone!  
+I'm starting out with learning **Design Verification Basics** that will include **SystemVerilog** and **UVM (Universal Verification Methodology)**.  
+This repository will document all my codes as I learn.  
+
+Do ⭐ this repo and learn with me or revise your basics.  
+
+👉 Link to the **EDA Playground** is given in the README file of each folder. You can try to run the codes yourself and verify the results.
+
+> **Note**: Pre-requisite – Verilog (functions, tasks, modelling styles, procedural blocks, continuous assignments, loops)
+
+---
+
+## 📑 CONTENTS
+
+### 📘 SystemVerilog
 - [DAY 01](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/DAY%2001) [Data types]
 - [DAY 02](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/DAY%2002) [Fixed arrays]
 - [DAY 03](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/DAY%2003) [Dynamic and Associative arrays]
@@ -36,7 +51,9 @@ Note: Pre-requisite - Verilog (functions, tasks, modelling styles, procedural bl
 - [DAY 26](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/DAY%2026) [Packet Override]
 
 
-### UVM
+---
+
+### 🧩 UVM
 - [UVM_DAY 01](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%2001) [Reporting Mechanisms]
 - [UVM_DAY 02](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%2002) [UVM Object class]
 - [UVM_DAY 03](https://github.com/SUHANI102003/50-days-of-Verification/tree/main/UVM_DAY%2003) [Field Macros]
@@ -64,5 +81,13 @@ Note: Pre-requisite - Verilog (functions, tasks, modelling styles, procedural bl
 
 
   
-## Referances
-I followed the Github Repository [SystemVerilogCourse](https://github.com/SUHANI102003/SystemVerilogCourse) and the website [Chip Verify](https://www.chipverify.com/tutorials/systemverilog) for learning System Verilog
+---
+
+## 📚 References
+### System Verilog
+- GitHub Repository [SystemVerilogCourse](https://github.com/SUHANI102003/SystemVerilogCourse)  
+- Website [Chip Verify](https://www.chipverify.com/tutorials/systemverilog) for learning **SystemVerilog**.
+- Udemy Course
+
+### UVM
+- Udemy Course
